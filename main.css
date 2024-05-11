@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input, button{
+    font-family: inherit;
+}
+body{    
+    font-family: "Poetsen One", sans-serif;
+    background: linear-gradient(to bottom, #ff9768, #fe6162);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-login{
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    border-radius: 8px;
+}
+.form-login .left{
+    width: 50%;
+    padding: 40px 32px;
+    text-align: center;
+}
+.form-login .left h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.form-login .left input{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #999;
+    border: none;
+    margin-bottom: 8px;
+
+}
+.form-login .left a{
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    color: #999 ;
+    margin: 20px 0;
+}
+.form-login .left button{
+    background-color: #fe6162;
+    color: #fefefe;
+    padding: 12px 28px ;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.form-login .right{
+    width: 50%;
+    background-color: #ff3954;
+    padding: 60px 32px;
+    text-align: center;
+    color: #fefefe;
+    border-radius: 0 8px 8px 0;
+}
+.form-login .right h3{
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #fefefe;
+}
+.form-login .right p{
+    margin-bottom: 32px;
+    
+}
+
+.form-login .right a{
+    color: #fefefe;
+    padding: 12px 28px ;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
